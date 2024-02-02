@@ -1,0 +1,49 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Balaji\Personal\Projects\.NetCore\CodeWar\bin\Release\net8.0\95b05c45-6eac-4139-ad57-03d142b01bf9
+// command took 3.57 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Balaji\Personal\Projects\.NetCore\CodeWar\bin\Release\net8.0\95b05c45-6eac-4139-ad57-03d142b01bf9
+// command took 6.85 sec and exited with 0
+// ***** Done, took 00:00:10 (10.82 sec)   *****
+// Found 2 benchmarks:
+//   Program.Approach2: DefaultJob
+//   Program.Approach1: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Program.Approach2: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 95b05c45-6eac-4139-ad57-03d142b01bf9.dll --anonymousPipes 1280 1216 --benchmarkName Program.Approach2 --job Default --benchmarkId 0 in C:\Balaji\Personal\Projects\.NetCore\CodeWar\bin\Release\net8.0\95b05c45-6eac-4139-ad57-03d142b01bf9\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.0 (8.0.23.53103), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 486900.00 ns, 486.9000 us/op
+KUALA LUMPUR
+ROME
+EDMONTON
+NASSAU
+UTRECHT
+TOKYO
+OSAKA
+ALGIERS
+SHANGHAI
+ISTANBUL
+LUCKNOW
+WINNIPEG
+GUATEMALA CITY
+YASUJ
+JEDDAH
+HYDERABAD
+DAR ES SALAAM
+MAZAR E SHARIF
+FECAMP
+PLOVDIV
